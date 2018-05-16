@@ -15,12 +15,12 @@ byte address=0x00;
 
 void setup() {
   Serial.begin(115200);
-  pinMode(12,OUTPUT);
-  pinMode(13,OUTPUT);
-  pinMode(14,OUTPUT);
-  digitalWrite(12,HIGH);
-  digitalWrite(13,HIGH);
-  digitalWrite(14,HIGH);
+  pinMode(17,OUTPUT);
+  pinMode(18,OUTPUT);
+  pinMode(19,OUTPUT);
+  digitalWrite(17,HIGH);
+  digitalWrite(18,HIGH);
+  digitalWrite(19,HIGH);
 }
  
 void loop() {
